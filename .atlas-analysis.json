@@ -1,30 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "Exam Master",
+  "projectDescription": "Exam Master is an all-in-one online learning platform for students featuring live classes, practice tests, course materials, doubt resolution, assignment submission, and performance analytics.",
   "theme": "almond",
-  "name": "Exam Master",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@exammaster.app"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Get Started",
-      "href": "/quickstart"
-    }
-  },
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -88,7 +69,28 @@
       }
     ]
   },
-  "footer": {
-    "socials": {}
-  }
+  "keyFeatures": [
+    "Interactive live classes with raise-hand feature",
+    "Recorded class playback on any device",
+    "Online practice tests with detailed performance reports",
+    "Doubt resolution via photo/screenshot upload",
+    "Assignment submission and evaluation",
+    "Course notes and study material library",
+    "Secure fee payment portal",
+    "Parent-teacher communication and progress tracking",
+    "Batch and session reminders and notifications",
+    "Leaderboard and peer score comparison",
+    "Ad-free learning experience"
+  ],
+  "publicApiSurface": [
+    "Student registration and login",
+    "Live class join flow",
+    "Course material download",
+    "Test creation and submission",
+    "Assignment upload",
+    "Performance dashboard",
+    "Fee payment checkout",
+    "Push notification preferences",
+    "Parent portal access"
+  ]
 }
